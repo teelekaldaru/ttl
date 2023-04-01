@@ -1,0 +1,11 @@
+// Fonts
+@font-face {
+  font-family: 'nucleo';
+  src: url("@/assets/fonts/nucleo-outline.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Variable overrides, custom styles
+@import '@/assets/styles/variables';
+@import '@/assets/styles/typography';
