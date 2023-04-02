@@ -10004,7 +10004,10 @@ h3 {
   }
 }
 .page-section {
-  padding: 6rem 0;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  padding-right: 0;
+  padding-left: 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;

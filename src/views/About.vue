@@ -7,7 +7,7 @@
 
         <div class="row">
             <div class="col">
-              <h5 class="text-center page-section-content" style="line-height: 1.8">
+              <h5 class="text-center page-section-content">
                   Tamsalu Tantsulaager on augusti alguses Tamsalu ja Tapa
                   valla noortele korraldatud laager, kus iga laagripäev
                   koosneb tantsimisest ning põnevatest õhtustest
@@ -36,10 +36,3 @@ import { Options, Vue } from "vue-class-component";
 })
 export default class About extends Vue {}
 </script>
-
-<style scoped lang="scss">
-.about-content{
-  margin-right: 7rem;
-  margin-left: 7rem;
-}
-</style>
