@@ -22,10 +22,10 @@
                         <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/pildid">Pildid</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/#korraldajad">Korraldajad</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/#meeskond">Meeskond</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/#treenerid">Treenerid</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/#kontakt">Kontakt</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link px-0 px-lg-2 fs-lg rounded js-scroll-trigger" href="https://facebook.com/tamsalutantsulaager">

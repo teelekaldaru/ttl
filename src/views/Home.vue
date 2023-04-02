@@ -1,15 +1,17 @@
 <template>
     <About />
-    <Staff />
+    <Team />
+    <Contact />
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import About from "./About.vue";
-import Staff from "./Staff.vue";
+import Contact from "./Contact.vue";
+import Team from "./Team.vue";
 
 @Options({
-    components: { About, Staff }
+    components: { About, Team, Contact }
 })
 export default class Home extends Vue {}
 </script>

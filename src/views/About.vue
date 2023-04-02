@@ -1,13 +1,13 @@
 <template>
-  <section class="page-section portfolio" id="korraldajad">
+  <section class="page-section text-center">
       <div class="container">
-        <h3 class="page-section-heading text-center text-secondary my-5">
+        <h3 class="page-section-heading  text-secondary">
           Tantsulaagrist
         </h3>
 
         <div class="row">
             <div class="col">
-              <h5 class="text-center page-section-content">
+              <h5 class="page-section-content">
                   Tamsalu Tantsulaager on augusti alguses Tamsalu ja Tapa
                   valla noortele korraldatud laager, kus iga laagripäev
                   koosneb tantsimisest ning põnevatest õhtustest

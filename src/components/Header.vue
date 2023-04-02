@@ -3,7 +3,7 @@
         <div class="container d-flex align-items-center flex-column">
             <img
                 class="masthead-avatar mb-5"
-                src="@/assets/images/tamtants.png"
+                src="@/assets/img/tamtants.png"
                 alt="..."
             />
             <h1 class="masthead-heading font-weight-light text-uppercase mt-4 mb-3">
