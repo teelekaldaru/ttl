@@ -1,29 +1,29 @@
 <template>
-  <header class="masthead bg-primary text-white text-center">
+    <header class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
             <img
                 class="masthead-avatar mb-5"
-                src="assets/images/tamtants.png"
+                src="@/assets/images/tamtants.png"
                 alt="..."
             />
-            <h1 class="masthead-heading text-uppercase mb-1">
-                TANTSULAAGER TULEB TAAS!
+            <h1 class="masthead-heading font-weight-light text-uppercase mt-4 mb-3">
+                Tantsulaager tuleb taas
             </h1>
 
-            <h2 class="text-uppercase mb-0">VÕIMSAMALT KUI KUNAGI VAREM!</h2>
+            <h2 class="font-weight-light mt-3 mb-5">Võimsamalt kui kunagi varem!</h2>
 
-            <div class="divider-custom divider-light">
+            <!--<div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon">
                     <i class="fas fa-star"></i>
                 </div>
                 <div class="divider-custom-line"></div>
-            </div>
-            <p class="masthead-subheading font-weight-light mb-0">
+            </div>-->
+            <p class="masthead-subheading font-weight-light my-1">
                 TANTSULAAGER TOIMUB SEL AASTAL
             </p>
-            <p class="masthead-subheading font-weight-light mb-1">
-                18.07 - 26.08
+            <p class="masthead-subheading font-weight-light mb-5">
+                04.08 - 13.08
             </p>
         </div>
     </header>
