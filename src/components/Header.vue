@@ -9,16 +9,7 @@
             <h1 class="masthead-heading font-weight-light text-uppercase mt-4 mb-3">
                 Tantsulaager tuleb taas
             </h1>
-
             <h2 class="font-weight-light mt-3 mb-5">Võimsamalt kui kunagi varem!</h2>
-
-            <!--<div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-            </div>-->
             <p class="masthead-subheading font-weight-light my-1">
                 TANTSULAAGER TOIMUB SEL AASTAL
             </p>

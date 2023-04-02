@@ -1,17 +1,13 @@
 <template>
-    <Navigation />
-    <Header />
-    <Footer />
+    <About />
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import Navigation from "@/components/Navigation.vue";
-import Header from "@/components/Header.vue";
-import Footer from "@/components/Footer.vue";
+import About from "./About.vue";
 
 @Options({
-    components: { Navigation, Header, Footer }
+    components: { About }
 })
 export default class Home extends Vue {}
 </script>

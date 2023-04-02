@@ -565,7 +565,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 4000px;
+    max-width: 1140px;
   }
 }
 .row {
@@ -9809,7 +9809,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #2c3e50 !important;
+  color: #2c2c2c !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10009,12 +10009,18 @@ h3 {
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
+  margin-bottom: 2.5rem;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 2.5rem;
+    margin-bottom: 3rem;
   }
+}
+.page-section .page-section-content {
+  line-height: 1.8rem;
+  font-weight: 500;
 }
 
 .divider-custom {

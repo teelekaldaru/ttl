@@ -16,7 +16,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/registreeri">Registreerima</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/registreerimine">Registreerima</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/pildid">Pildid</a>
@@ -54,8 +54,12 @@ export default class Navigation extends Vue {}
 
 <style scoped lang="scss">
 .navbar {
-    background-color: $primary;
-
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 100%;
+            margin: 0 3rem;
+        }
+    }
     .social-icon {
         font-size: 1.25rem;
         vertical-align: middle;
