@@ -1,7 +1,7 @@
 <template>
     <TeamMembers title="Korraldajad" :members="organizers"/>
     <TeamMembers title="Treenerid" :members="trainers" />
-    <TeamMembers title="Vabatahtlikud" :members="voluntees" />
+    <TeamMembers title="Vabatahtlikud" :members="voluntees" style="padding-bottom: 6rem;" />
 </template>
 
 <script lang="ts">

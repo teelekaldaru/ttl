@@ -1,5 +1,5 @@
 <template>
-      <div class="copyright py-4 text-center text-white">
+    <div class="copyright bg-dark py-4 text-center text-white">
         <div class="container">
             <small>
                 Copyright &copy; TAMSALU TANTSULAAGER

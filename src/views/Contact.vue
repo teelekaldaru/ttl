@@ -1,34 +1,25 @@
 <template>
-  <section class="page-section bg-primary text-white text-center">
+  <section class="page-section bg-dark text-white text-left" id="kontakt">
       <div class="container">
-        <h3 class="page-section-heading mb-4">
-          Kontakt
-        </h3>
-        <h5 class="page-section-content">Võta julgelt ühendust!</h5>
-
         <div class="row">
-          <div class="col-3"></div>
           <div class="col-6">
-            <div class="row text-left">
-              <div class="col">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class="col">
-                <h6 class="text-uppercase">Aadress</h6>
-                <p>Tehnika 1a, Tamsalu 46107</p>
-              </div>
-            </div>
-            <div class="row text-left">
-              <div class="col">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class="col">
-                <h6 class="text-uppercase">E-post</h6>
-                <p>tamtants@gmail.com</p>
-              </div>
-            </div>
+            <img
+                class="mb-5"
+                src="@/assets/img/tamtants_2022.jpg"
+                alt="..."
+            />
           </div>
-          <div class="col-3"></div>
+          <div class="col-6">
+            <h3 class="page-section-heading mb-3 mt-1">
+              Kontakt
+            </h3>
+            <h5 class="page-section-content mb-5">
+              Võta julgelt ühendust!
+            </h5>
+            <p class="mb-1">Tamsalu Tantsulaager</p>
+            <p class="mb-1">Tehnika 1a, Tamsalu 46107</p>
+            <p class="mb-1">tamtants@gmail.com</p>
+          </div>
         </div>
       </div>
   </section>

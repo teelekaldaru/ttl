@@ -6172,7 +6172,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #1a252f !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10288,6 +10288,10 @@ form .row:first-child .floating-label-form-group {
   padding-top: 45px;
   padding-bottom: 15px;
 }
+.section-team:last-of-type {
+  padding-bottom: 8rem;
+}
+
 
 img {
   max-width: 100%;

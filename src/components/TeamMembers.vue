@@ -1,7 +1,7 @@
 <template>
     <section class="page-section section-team text-center" id="meeskond">
       <div class="container">
-        <h3 class="page-section-heading text-center text-secondary" id="korraldajad">
+        <h3 class="page-section-heading text-center text-secondary">
           {{ title }}
         </h3>
         <div class="team">
