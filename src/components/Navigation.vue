@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav" >
+    <nav class="navbar navbar-expand-lg bg-primary text-uppercase fixed-top" id="mainNav" >
         <div class="container">
             <a class="navbar-brand js-scroll-trigger fs-sm" href="/">TAMSALU TANTSULAAGER</a>
             <button

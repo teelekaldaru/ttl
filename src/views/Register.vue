@@ -1,5 +1,5 @@
 <template>
-  <section class="page-section page-section-last text-center">
+  <section class="page-section page-section-main text-center">
       <div class="container">
         <h3 class="page-section-heading  text-secondary">
           Registreerimine
