@@ -4,7 +4,7 @@
         <h3 class="page-section-heading  text-secondary">
           Pildid
         </h3>
-
+        
         <div class="row pb-3">
           <div class="col">
             <h5 class="py-3">
@@ -46,10 +46,9 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import Gallery from "../components/Gallery.vue";
 
 @Options({
-  components: { Gallery }
+  components: { }
 })
 export default class Pictures extends Vue {}
 </script>
