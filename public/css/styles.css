@@ -10297,10 +10297,19 @@ form .row:first-child .floating-label-form-group {
   margin-top: 30px;
   margin-bottom: 15px;
 }
+.section-team .team .team-player .description{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  white-space: break-spaces;
+}
 .section-team .team .row .col {
   flex-basis: calc(33% - 20px);
   padding-top: 45px;
   padding-bottom: 15px;
+}
+.section-team .container {
+  max-width: 1300px;
 }
 
 img {

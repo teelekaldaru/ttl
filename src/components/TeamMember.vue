@@ -7,7 +7,10 @@
         class="rounded-circle img-fluid img-raised"
       />
       <h4 class="title">{{ member.name }}</h4>
-      <p class="description">{{ member.description }}</p>
+      <div class="description" v-for="(answer, question) in member.description">
+        <span><b>{{ question }}</b></span>
+        <span>{{ answer }}</span>
+      </div>
     </div>
   </div>
 </template>

@@ -18,9 +18,9 @@
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/registreerimine">Registreerima</a>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1">
+                    <!--<li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/pildid">Pildid</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 fs-xs rounded js-scroll-trigger" href="/#meeskond">Meeskond</a>
                     </li>
