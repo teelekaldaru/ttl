@@ -193,7 +193,7 @@ export default class Team extends Vue {
         {
             name: "Sten-Lenar Nirgi",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Internet, raha, kaamerad ",
+                "3 asja, milleta elada ei suudaks:": "Internet, raha, kaamerad",
                 "Milliste sõnadega end iseloomustad?": "Lõbus ja spontaanne",
                 "Lemmikfilm/sari:": "\"Breaking bad\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "It always seems impossible until it's done."
@@ -230,6 +230,17 @@ export default class Team extends Vue {
                 "Milliste sõnadega end iseloomustad?": "Armas, energiline, emotsionaalne, entusiastlik",
                 "Lemmikfilm/sari:": "\"Friends\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Make it happen, shock everyone."
+            },
+            role: Role.Voluntee,
+            image: "profile.png"
+        },
+        {
+            name: "Teele Kaldaru",
+            description: {
+                "3 asja, milleta elada ei suudaks:": "Kassid, kohv, loodus",
+                "Milliste sõnadega end iseloomustad?": "Sihikindel, rahulik, rõõmsameelne",
+                "Lemmikfilm/sari:": "\"Interstellar\", \"The Imitation Game\", \"Gossip Girl\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Mõtle suurelt ja ära karda ebaõnnestuda."
             },
             role: Role.Voluntee,
             image: "profile.png"
