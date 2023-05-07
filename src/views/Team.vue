@@ -237,10 +237,10 @@ export default class Team extends Vue {
         {
             name: "Teele Kaldaru",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Kassid, kohv, loodus",
+                "3 asja, milleta elada ei suudaks:": "Kassid, kohv, arvuti",
                 "Milliste sõnadega end iseloomustad?": "Sihikindel, rahulik, rõõmsameelne",
-                "Lemmikfilm/sari:": "\"Interstellar\", \"The Imitation Game\", \"Gossip Girl\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Mõtle suurelt ja ära karda ebaõnnestuda."
+                "Lemmikfilm/sari:": "\"Interstellar\", \"The Imitation Game\", \"Peaky Blinders\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Unista suurelt ja ära karda ebaõnnestuda."
             },
             role: Role.Voluntee,
             image: "profile.png"

@@ -4714,7 +4714,7 @@ a.badge:hover, a.badge:focus {
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #148f77;
+  background-color: #db582c;
 }
 a.badge-primary:focus, a.badge-primary.focus {
   outline: 0;
@@ -6114,7 +6114,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #db582c !important;
 }
 
 .bg-secondary {
@@ -6272,35 +6272,35 @@ button.bg-dark:focus {
 }
 
 .rounded-sm {
-  border-radius: 0.25rem !important;
+  border-radius: 0.125rem !important;
 }
 
 .rounded {
-  border-radius: 0.5rem !important;
+  border-radius: 0.25rem !important;
 }
 
 .rounded-top {
-  border-top-left-radius: 0.5rem !important;
-  border-top-right-radius: 0.5rem !important;
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
 }
 
 .rounded-right {
-  border-top-right-radius: 0.5rem !important;
-  border-bottom-right-radius: 0.5rem !important;
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
 }
 
 .rounded-bottom {
-  border-bottom-right-radius: 0.5rem !important;
-  border-bottom-left-radius: 0.5rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
 }
 
 .rounded-left {
-  border-top-left-radius: 0.5rem !important;
-  border-bottom-left-radius: 0.5rem !important;
+  border-top-left-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
 }
 
 .rounded-lg {
-  border-radius: 0.75rem !important;
+  border-radius: 0.5rem !important;
 }
 
 .rounded-circle {
@@ -10297,17 +10297,28 @@ form .row:first-child .floating-label-form-group {
   margin-top: 30px;
   margin-bottom: 15px;
 }
-.section-team .team .team-player .description{
+.section-team .team .team-player .description {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
   white-space: break-spaces;
 }
-.section-team .team .row .col {
-  flex-basis: calc(33% - 20px);
-  padding-top: 45px;
-  padding-bottom: 15px;
+.section-team .team .team-player {
+  padding: 30px;
 }
+@media (min-width: 576px) {
+  .section-team .team .team-player {
+    flex-basis: calc(100% - 20px);
+  }
+}
+@media (min-width: 768px) {
+  .section-team .team .team-player {
+    flex-basis: calc(50% - 20px);
+  }
+}
+@media (min-width: 992px) {
+}
+
 .section-team .container {
   max-width: 1300px;
 }
