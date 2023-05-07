@@ -10306,6 +10306,9 @@ form .row:first-child .floating-label-form-group {
 .section-team .team .team-player {
   padding: 30px;
 }
+.section-team .container {
+  max-width: 1300px;
+}
 @media (min-width: 576px) {
   .section-team .team .team-player {
     flex-basis: calc(100% - 20px);
@@ -10316,12 +10319,6 @@ form .row:first-child .floating-label-form-group {
     flex-basis: calc(50% - 20px);
   }
 }
-@media (min-width: 992px) {
-}
-
-.section-team .container {
-  max-width: 1300px;
-}
 
 img {
   max-width: 100%;
@@ -10329,4 +10326,15 @@ img {
 }
 .img-raised {
   box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.section-contact {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .section-contact {
+    text-align: left;
+  }
 }

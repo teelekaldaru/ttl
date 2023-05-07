@@ -1,15 +1,15 @@
 <template>
-  <section class="page-section bg-dark text-white text-left" id="kontakt">
+  <section class="page-section section-contact bg-dark text-white" id="kontakt">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm-12 col-md-6">
             <img
                 class="mb-5"
                 src="@/assets/img/tamtants_2022.jpg"
                 alt="..."
             />
           </div>
-          <div class="col-6">
+          <div class="col-sm-12 col-md-6">
             <h3 class="page-section-heading mb-3 mt-1">
               Kontakt
             </h3>
