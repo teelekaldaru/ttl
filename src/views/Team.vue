@@ -34,7 +34,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Elu muutub palju tähendusrikkamaks, kui sa mõistad, et sa ei saa kogeda sama hetke mitu korda."
             },
             role: Role.Organizer,
-            image: "profile.png"
+            image: "Eliise.jpg"
         },
         {
             name: "Lisanne Lindre",
@@ -45,7 +45,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "You are only as pretty as you treat people."
             },
             role: Role.Organizer,
-            image: "profile.png"
+            image: "Lisanne.jpg"
         },
         {
             name: "Marta Kolde",
@@ -56,7 +56,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Headust leidub kõigis!"
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "Marta.jpg"
         },
         {
             name: "Elerin Palk",
@@ -78,7 +78,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Kõik juhtub põhjusega."
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "Lisette.jpg"
         },
         {
             name: "Moona Mürk",
@@ -89,7 +89,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Oma elu elamiseks on ainult kaks võimalust. Esimene on uskuda, et miski pole ime. Teine on uskuda, et kõik on ime."
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "Moona.jpg"
         },
         {
             name: "Caroline Kiviberg ",
@@ -100,7 +100,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Raha tuleb tagasi, kuid aeg mitte."
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "Caroline.jpg"
         },
         {
             name: "Marii Pukki",
@@ -111,7 +111,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Tants olii megaaa!! Teeme ühe korra veel\""
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "Marii.jpg"
         },
         {
             name: "Elly Naigla",
@@ -133,7 +133,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Live love laugh"
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "Kärt.jpg"
         },
         {
             name: "Elis Viibur",
@@ -144,7 +144,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Do it with passion or not at all."
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "Elis.jpg"
         },
         {
             name: "Adriana Mitt",
@@ -177,7 +177,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Elu mõte on leida elu mõte."
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "Elina.jpg"
         },
         {
             name: "Liis Tomasov",
@@ -188,7 +188,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Mõista päriselt, et käesolev hetk on kõik, mis sul eales on."
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "Liis.jpg"
         },
         {
             name: "Sten-Lenar Nirgi",
@@ -199,14 +199,14 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "It always seems impossible until it's done."
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "Sten.jpg"
         },
         {
             name: "Riho Valdok",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Vesi, sõbrad ja sarkasm",
                 "Milliste sõnadega end iseloomustad?": "Energiline, vormis, sõbralik, hea isuga",
-                "Lemmikfilm/sari:": "\"Tähevärav\"",
+                "Lemmikfilm/sari:": "\"Stargate SG-1\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Tempora mutantur et nos mutamur in illis"
             },
             role: Role.Voluntee,
@@ -243,7 +243,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Unista suurelt ja ära karda ebaõnnestuda."
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "Teele.jpg"
         }
     ]
     }

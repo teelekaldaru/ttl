@@ -10286,7 +10286,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .section-team .team .team-player img {
-  max-width: 130px;
+
 }
 .section-team .team-player {
   margin-bottom: 15px;
@@ -10326,6 +10326,12 @@ img {
 }
 .img-raised {
   box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+.img-rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
 }
 
 .section-contact {
