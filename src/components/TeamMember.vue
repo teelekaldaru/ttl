@@ -1,5 +1,5 @@
 <template>
-  <div class="team-player col">
+  <div class="team-player col-sm-12 col-md-6">
     <img
       :src="require(`@/assets/img/team/${member.image}`)"
       class="img-rounded img-raised"

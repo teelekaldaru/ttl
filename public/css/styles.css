@@ -10309,16 +10309,7 @@ form .row:first-child .floating-label-form-group {
 .section-team .container {
   max-width: 1300px;
 }
-@media (min-width: 576px) {
-  .section-team .team .team-player {
-    flex-basis: calc(100% - 20px);
-  }
-}
-@media (min-width: 768px) {
-  .section-team .team .team-player {
-    flex-basis: calc(50% - 20px);
-  }
-}
+
 
 img {
   max-width: 100%;

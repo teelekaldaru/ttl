@@ -5,7 +5,7 @@
           {{ title }}
         </h3>
         <div class="team">
-          <div class="row">
+          <div class="row justify-content-center">
             <template v-for="member in members" :key="member">
               <TeamMember :member="member" />
             </template>
