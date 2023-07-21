@@ -67,7 +67,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ära oota homset, tegutse juba täna!"
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "Elerin.jpg"
         },
         {
             name: "Lisette Akkuratov",
@@ -122,7 +122,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Kui keegi ütleb sulle, et sa ei saa hakkama siis nad on lihtsalt kadedad, et oled jõudnud kaugemale kui nad algselt arvasid.\n\"Be prepared. Just when you think you found your way, life will throw you onto a new path.\" -Mattias Frozen II"
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "Elly.jpg"
         },
         {
             name: "Kärt Maasik",
@@ -166,7 +166,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Kõik inimesed on omamoodi erilised."
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "Britten.jpg"
         },
         {
             name: "Elina Kaska",
@@ -210,7 +210,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Tempora mutantur et nos mutamur in illis"
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "Riho.jpg"
         },
         {
             name: "Emma-Lotta Vikk",
@@ -232,7 +232,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Make it happen, shock everyone."
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "Melissa.jpg"
         },
         {
             name: "Teele Kaldaru",
