@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import VueCountdown from '@chenfengyuan/vue-countdown';
 
-createApp(App).use(router).mount('#app')
+createApp(App).component(VueCountdown.name, VueCountdown).use(router).mount('#app')

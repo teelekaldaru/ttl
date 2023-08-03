@@ -17,7 +17,6 @@
               Võta julgelt ühendust!
             </h5>
             <p class="mb-1">Tamsalu Tantsulaager</p>
-            <p class="mb-1">Tehnika 1a, Tamsalu 46107</p>
             <p class="mb-1">tamtants@gmail.com</p>
           </div>
         </div>

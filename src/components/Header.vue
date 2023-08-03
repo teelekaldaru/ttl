@@ -16,15 +16,19 @@
             <p class="masthead-subheading font-weight-light mb-5">
                 04.08 - 13.08
             </p>
+            <p class="masthead-subheading font-weight-light my-2">
+                <Countdown />
+            </p>
         </div>
     </header>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
+import Countdown from "./Countdown.vue";
 
 @Options({
-    components: {}
+    components: { Countdown }
 })
 export default class Header extends Vue {}
 </script>
