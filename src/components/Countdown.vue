@@ -1,6 +1,6 @@
 <template>
-  <vue-countdown :time="remainingTime" v-slot="{ days, hours, minutes, seconds }">
-    Tantsulaagri alguseni on jäänud
+  <vue-countdown v-if="showCountdown" :time="remainingTime" v-slot="{ days, hours, minutes, seconds }">
+    Tantsulaagri kontserdini on jäänud
     <div class="row">
       <div class="col">
         <h1 class="display-4">{{ days }}</h1>
@@ -29,12 +29,15 @@ import { Options, Vue } from "vue-class-component";
     components: {}
 })
 export default class Countdown extends Vue {
-    remainingTime: number = 0;
+  showCountdown: boolean = false;
+  remainingTime: number = 0;
 
-    mounted(): void {
-        const now = new Date();
-        const startTime = new Date(2023, 7, 4, 11);
-        this.remainingTime = startTime.getTime() - now.getTime();
-    }
+  mounted(): void {
+      const now = new Date();
+      const targetTime = new Date(2023, 7, 13, 17);
+
+      this.showCountdown = targetTime > now;
+      this.remainingTime = targetTime.getTime() - now.getTime();
+  }
 }
 </script>
