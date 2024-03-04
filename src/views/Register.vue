@@ -8,9 +8,10 @@
         <div class="row pb-5">
           <div class="col">
             <h5 class="page-section-content py-4">
-              Tamsalu Tantsulaager 2023 REGISTREERIMINE toimub 1. maist - 30. maini!
+              Registreerimine avaneb 1. mail kell 10.00!
             </h5>
-            <button type="button" class="btn btn-lg btn-primary" @click="openForm()">REGISTREERI TANTSIJAKS </button>
+            <!--<button type="button" class="btn btn-lg btn-primary" @click="openForm()">REGISTREERI TANTSIJAKS </button>-->
+            <button type="button" class="btn btn-lg btn-primary" @click="backToHome()">TAGASI AVALEHELE</button>
           </div>
         </div>
       </div>
@@ -18,6 +19,7 @@
 </template>
 
 <script lang="ts">
+import router from "@/router";
 import { Options, Vue } from "vue-class-component";
 
 @Options({
@@ -27,6 +29,10 @@ export default class Register extends Vue {
 
   openForm() {
     window.open("https://forms.gle/34z4WooyeoTpwgX58");
+  }
+
+  backToHome() {
+    router.push({ path: '/'})
   }
 }
 </script>

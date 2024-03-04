@@ -14,10 +14,11 @@
                 TANTSULAAGER TOIMUB SEL AASTAL
             </p>
             <p class="masthead-subheading font-weight-light mb-5">
-                04.08 - 13.08
+                28.07 - 04.08
             </p>
             <p class="masthead-subheading font-weight-light my-2">
-                <Countdown />
+                <!--<Countdown />-->
+                Registreerimine avaneb 1. mail kell 10.00!
             </p>
         </div>
     </header>

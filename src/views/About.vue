@@ -19,7 +19,7 @@
                   Tantsulaagri viimasel päeval toimub suur kontsert, kus
                   esitatakse laagris õpitud tantse.
                   <br />
-                  Selle aasta kontsert toimub 13. augustil kell 17.00 Tamsalu Kultuurimajas.
+                  Selle aasta kontsert toimub 4. augustil kell 17.00 Tamsalu Kultuurimajas.
                   Tulge vaatama!
               </h5>
             </div>

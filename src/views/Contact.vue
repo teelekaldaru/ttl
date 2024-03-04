@@ -18,6 +18,7 @@
             </h5>
             <p class="mb-1">Tamsalu Tantsulaager</p>
             <p class="mb-1">tamtants@gmail.com</p>
+            <p class="mb-1">+372 51 991 741</p>
           </div>
         </div>
       </div>
