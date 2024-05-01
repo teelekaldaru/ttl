@@ -114,15 +114,15 @@ export default class Team extends Vue {
             image: "Elly.jpg"
         },
         {
-            name: "Marcos Veeber",
+            name: "Aleksia Iarnia",
             description: {
-                "3 asja, milleta elada ei suudaks:": "",
-                "Milliste sõnadega end iseloomustad?": "",
-                "Lemmikfilm/sari:": "\"\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": ""
+                "3 asja, milleta elada ei suudaks:": "Vürtsikad nuudlid, hea huumor, jazzmuusika",
+                "Milliste sõnadega end iseloomustad?": "Alati positiivne, avatud ja usaldusväärne",
+                "Lemmikfilm/sari:": "\"The First Avenger\", \"Divergent\", \"You\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Don't waste your time by overthinking - just live and trust your intuition and you’ll feel better!!!"
             },
             role: Role.Trainer,
-            image: "Marcos.jpg"
+            image: "Aleksia.jpg"
         },
         {
             name: "Helena Anette Hanni",
@@ -133,18 +133,18 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Keep calm and dance"
             },
             role: Role.Trainer,
-            image: "Helena.jpg"
+            image: "profile.png"
         },
         {
-            name: "Aleksia Iarnia",
+            name: "Marcos Veeber",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Vürtsikad nuudlid, hea huumor, jazzmuusika",
-                "Milliste sõnadega end iseloomustad?": "Alati positiivne, avatud ja usaldusväärne",
-                "Lemmikfilm/sari:": "\"The First Avenger\", \"Divergent\", \"You\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Don't waste your time by overthinking - just live and trust your intuition and you’ll feel better!!!"
+                "3 asja, milleta elada ei suudaks:": "",
+                "Milliste sõnadega end iseloomustad?": "",
+                "Lemmikfilm/sari:": "",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": ""
             },
             role: Role.Trainer,
-            image: "Aleksia.jpg"
+            image: "profile.png"
         },
         {
             name: "Marta Kolde",
@@ -265,7 +265,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "One day this pain will make sense to you"
             },
             role: Role.Voluntee,
-            image: "Martta.jpg"
+            image: "profile.png"
         }
     ]
     }
