@@ -10,7 +10,7 @@
             <h5 class="page-section-content py-4">
               Registreerimine avaneb 1. mail kell 10.00!
             </h5>
-            <!--<button type="button" class="btn btn-lg btn-primary" @click="openForm()">REGISTREERI TANTSIJAKS </button>-->
+            <button type="button" class="btn btn-lg btn-primary" @click="openForm()">REGISTREERI TANTSIJAKS </button>
             <button type="button" class="btn btn-lg btn-primary" @click="backToHome()">TAGASI AVALEHELE</button>
           </div>
         </div>
@@ -28,7 +28,7 @@ import { Options, Vue } from "vue-class-component";
 export default class Register extends Vue {
 
   openForm() {
-    window.open("https://forms.gle/34z4WooyeoTpwgX58");
+    window.open("https://forms.gle/sugLcbjUZY9zx3NG8");
   }
 
   backToHome() {
