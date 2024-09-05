@@ -51,7 +51,7 @@ export default class Team extends Vue {
             name: "Evgenia Iarnia",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Märkmik, prillid, auto",
-                "Milliste sõnadega end iseloomustad?": "Uudihimulik, põhjalik, tegus",
+                "Milliste sõnadega end iseloomustad?": "Uudishimulik, põhjalik, tegus",
                 "Lemmikfilm/sari:": "\"The Holiday\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Kui töö ei suju ja muutub raskeks, siis tuleb teha kohvipaus.\" - Stephen Hawking"
             },
@@ -114,7 +114,7 @@ export default class Team extends Vue {
             image: "Elly.jpg"
         },
         {
-            name: "Aleksia Iarnia",
+            name: "Aleksia Yarnya",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Vürtsikad nuudlid, hea huumor, jazzmuusika",
                 "Milliste sõnadega end iseloomustad?": "Alati positiivne, avatud ja usaldusväärne",
@@ -133,7 +133,7 @@ export default class Team extends Vue {
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Keep calm and dance"
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "Helena.jpg"
         },
         {
             name: "Marcos Veeber",
