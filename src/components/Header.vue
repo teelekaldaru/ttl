@@ -14,7 +14,7 @@
                 TANTSULAAGER TOIMUB SEL AASTAL
             </p>
             <p class="masthead-subheading font-weight-light mb-5">
-                28.07 - 04.08
+                02.08 - 10.08
             </p>
             <p class="masthead-subheading font-weight-light my-2">
                 <!--<Countdown />-->
