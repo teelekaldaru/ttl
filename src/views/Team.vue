@@ -1,7 +1,9 @@
 <template>
     <TeamMembers title="Korraldajad" :members="organizers"/>
     <TeamMembers title="Treenerid" :members="trainers" />
-    <TeamMembers title="Vabatahtlikud" :members="voluntees" class="page-section-last" />
+    <TeamMembers title="Meeskond" :members="voluntees" />
+    <TeamMembers title="Heli ja Valgus" :members="technicians" />
+    <TeamMembers title="Turundus" :members="marketing" class="page-section-last" />
 </template>
 
 <script lang="ts">
@@ -17,11 +19,15 @@ export default class Team extends Vue {
     organizers: Person[] = [];
     trainers: Person[] = [];
     voluntees: Person[] = [];
+    technicians: Person[] = [];
+    marketing: Person[] = [];
 
     mounted(): void {
         this.organizers = this.people.filter(p => p.role === Role.Organizer);
         this.trainers = this.people.filter(p => p.role === Role.Trainer);
         this.voluntees = this.people.filter(p => p.role === Role.Voluntee);
+        this.technicians = this.people.filter(p => p.role === Role.Technician);
+        this.marketing = this.people.filter(p => p.role === Role.Marketing);
     }
 
     private people: Person[] = [
@@ -46,17 +52,6 @@ export default class Team extends Vue {
             },
             role: Role.Organizer,
             image: "Lisanne.jpg"
-        },
-        {
-            name: "Evgenia Iarnia",
-            description: {
-                "3 asja, milleta elada ei suudaks:": "Märkmik, prillid, auto",
-                "Milliste sõnadega end iseloomustad?": "Uudishimulik, põhjalik, tegus",
-                "Lemmikfilm/sari:": "\"The Holiday\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Kui töö ei suju ja muutub raskeks, siis tuleb teha kohvipaus.\" - Stephen Hawking"
-            },
-            role: Role.Organizer,
-            image: "Evgenia.jpg"
         },
         {
             name: "Lisette Akkuratov",
@@ -92,28 +87,6 @@ export default class Team extends Vue {
             image: "Caroline.jpg"
         },
         {
-            name: "Marii Pukki",
-            description: {
-                "3 asja, milleta elada ei suudaks:": "TTL, vesi, tantsud",
-                "Milliste sõnadega end iseloomustad?": "Naljakas, otsekohene, hea südamega",
-                "Lemmikfilm/sari:": "\"Titanic\", \"Ginny&Georgia\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Tants olii megaaa!! Teeme ühe korra veel\""
-            },
-            role: Role.Trainer,
-            image: "Marii.jpg"
-        },
-        {
-            name: "Elly Naigla",
-            description: {
-                "3 asja, milleta elada ei suudaks:": "Tants, söök, sõbrad",
-                "Milliste sõnadega end iseloomustad?": "Kohati omamoodi, goofy, hooliv, lojaalne",
-                "Lemmikfilm/sari:": "\"My Little Pony\", \"My Name\", \"The Babysitter\", \"The Shallows\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Kui keegi ütleb sulle, et sa ei saa hakkama siis nad on lihtsalt kadedad, et oled jõudnud kaugemale kui nad algselt arvasid.\n\"Be prepared. Just when you think you found your way, life will throw you onto a new path.\" -Mattias Frozen II"
-            },
-            role: Role.Trainer,
-            image: "Elly.jpg"
-        },
-        {
             name: "Aleksia Yarnya",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Vürtsikad nuudlid, hea huumor, jazzmuusika",
@@ -136,12 +109,34 @@ export default class Team extends Vue {
             image: "Helena.jpg"
         },
         {
-            name: "Marcos Veeber",
+            name: "Lola Hannus",
             description: {
-                "3 asja, milleta elada ei suudaks:": "",
-                "Milliste sõnadega end iseloomustad?": "",
-                "Lemmikfilm/sari:": "",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": ""
+                "3 asja, milleta elada ei suudaks:": "Söömine, magamine, päike",
+                "Milliste sõnadega end iseloomustad?": "Koomiline, omamoodi",
+                "Lemmikfilm/sari:": "\"Kättemaksukontor\", \"Moana\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Live laugh love"
+            },
+            role: Role.Trainer,
+            image: "Lola.jpg"
+        },
+        {
+            name: "Katarina Saare",
+            description: {
+                "3 asja, milleta elada ei suudaks:": "Raamatud, kirg ja muusika",
+                "Milliste sõnadega end iseloomustad?": "Tantsuline, mitmekülgne ja raamatusõber",
+                "Lemmikfilm/sari:": "\"10 things I hate about you\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Time will explain.\" - Jane Austine"
+            },
+            role: Role.Trainer,
+            image: "profile.png"
+        },
+        {
+            name: "Kertrud Kõre",
+            description: {
+                "3 asja, milleta elada ei suudaks:": "Padi, roosa värv, Pinterest",
+                "Milliste sõnadega end iseloomustad?": "Avatud, lõbus, sõbralik",
+                "Lemmikfilm/sari:": "\"On my block\", \"The office\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Kui sa oled seest ilus, siis seda on väljast näha\" - Kate Moss"
             },
             role: Role.Trainer,
             image: "profile.png"
@@ -154,19 +149,8 @@ export default class Team extends Vue {
                 "Lemmikfilm/sari:": "\"Gilmore Girls\" ning \"Friends\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Headust leidub kõigis!"
             },
-            role: Role.Voluntee,
+            role: Role.Marketing,
             image: "Marta.jpg"
-        },
-        {
-            name: "Kärt Maasik",
-            description: {
-                "3 asja, milleta elada ei suudaks:": "Voodi, padi ja tekk",
-                "Milliste sõnadega end iseloomustad?": "Omamoodi huumorimeelega",
-                "Lemmikfilm/sari:": "\"Howl the moving castle\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Live love laugh"
-            },
-            role: Role.Voluntee,
-            image: "Kärt.jpg"
         },
         {
             name: "Elis Viibur",
@@ -209,7 +193,7 @@ export default class Team extends Vue {
                 "Lemmikfilm/sari:": "\"Breaking bad\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "It always seems impossible until it's done."
             },
-            role: Role.Voluntee,
+            role: Role.Technician,
             image: "Sten.jpg"
         },
         {
@@ -220,7 +204,7 @@ export default class Team extends Vue {
                 "Lemmikfilm/sari:": "\"Stargate SG-1\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Tempora mutantur et nos mutamur in illis"
             },
-            role: Role.Voluntee,
+            role: Role.Technician,
             image: "Riho.jpg"
         },
         {
@@ -235,37 +219,26 @@ export default class Team extends Vue {
             image: "Emma.jpg"
         },
         {
+            name: "Grete Uudeküll-Lind",
+            description: {
+                "3 asja, milleta elada ei suudaks:": "Pinterest, paber ja sõõrikud",
+                "Milliste sõnadega end iseloomustad?": "Tagasihoidlik, vaikne, inspireeritud",
+                "Lemmikfilm/sari:": "Pipi Pikksuka filmid",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Me ei mäleta päevi, me mäletame hetki."
+            },
+            role: Role.Voluntee,
+            image: "profile.png"
+        },
+        {
             name: "Teele Kaldaru",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Trenn, kaerapiim, geelküüned",
-                "Milliste sõnadega end iseloomustad?": "Sihikindel, püüdlik, tähelepanelik",
+                "3 asja, milleta elada ei suudaks:": "Jõusaal, Stanley cup, geelküüned",
+                "Milliste sõnadega end iseloomustad?": "Sihikindel, loov, tähelepanelik",
                 "Lemmikfilm/sari:": "\"Interstellar\", \"The Imitation Game\", \"Peaky Blinders\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Unista suurelt ja ära karda ebaõnnestuda."
             },
             role: Role.Voluntee,
             image: "Teele.jpg"
-        },
-        {
-            name: "Lola Hannus",
-            description: {
-                "3 asja, milleta elada ei suudaks:": "Söömine, magamine, päike",
-                "Milliste sõnadega end iseloomustad?": "Koomiline, omamoodi",
-                "Lemmikfilm/sari:": "\"Kättemaksukontor\", \"Moana\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Live laugh love"
-            },
-            role: Role.Voluntee,
-            image: "Lola.jpg"
-        },
-        {
-            name: "Martta Raudsepp",
-            description: {
-                "3 asja, milleta elada ei suudaks:": "Krõpsud, hiphop ja koerad",
-                "Milliste sõnadega end iseloomustad?": "Energiline, empaatiline, näljane",
-                "Lemmikfilm/sari:": "\"Step up\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "One day this pain will make sense to you"
-            },
-            role: Role.Voluntee,
-            image: "profile.png"
         }
     ]
     }

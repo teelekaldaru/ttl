@@ -7,9 +7,9 @@
                 alt="..."
             />
             <h1 class="masthead-heading font-weight-light text-uppercase mt-4 mb-3">
-                Tantsulaager tuleb taas
+                ÜKS SUVI. SADA LUGU.
             </h1>
-            <h2 class="font-weight-light mt-3 mb-5">Võimsamalt kui kunagi varem!</h2>
+            <h2 class="font-weight-light mt-3 mb-5">Tantsulaager tuleb taas!</h2>
             <p class="masthead-subheading font-weight-light my-1">
                 TANTSULAAGER TOIMUB SEL AASTAL
             </p>
