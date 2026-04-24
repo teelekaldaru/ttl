@@ -1,10 +1,2 @@
 @use '@/assets/styles/variables' as *;
 @use '@/assets/styles/typography';
-
-// Fonts
-@font-face {
-  font-family: 'nucleo';
-  src: url("@/assets/fonts/nucleo-outline.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
