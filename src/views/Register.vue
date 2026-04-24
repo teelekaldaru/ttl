@@ -11,7 +11,6 @@
               Registreerimine avaneb 1. mail kell 10.00!
             </h5>
             <button type="button" class="btn btn-lg btn-primary" @click="openForm()">REGISTREERI TANTSIJAKS </button>
-            <!--<button type="button" class="btn btn-lg btn-primary" @click="backToHome()">TAGASI AVALEHELE</button>-->
           </div>
         </div>
       </div>
@@ -25,7 +24,7 @@ import router from '@/router';
 export default defineComponent({
     methods: {
         openForm() {
-            window.open("https://docs.google.com/forms/d/1P_s4q4_hEs6smIcCj7x5D7AQQt7dgumjdmjVI-PDHRc/");
+            window.open("https://docs.google.com/forms/d/1Ft1Xzn_58usJROfkHC3Z-8am6Ntj-mVmrTw_QWYZvmY");
         },
         backToHome() {
             router.push({ path: '/' });
