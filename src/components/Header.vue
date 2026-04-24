@@ -7,18 +7,18 @@
                 alt="..."
             />
             <h1 class="masthead-heading font-weight-light text-uppercase mt-4 mb-3">
-                ÜKS SUVI. SADA LUGU.
+                TAMSALU TANTSULAAGER 15
             </h1>
             <h2 class="font-weight-light mt-3 mb-5">Tantsulaager tuleb taas!</h2>
             <p class="masthead-subheading font-weight-light my-1">
                 TANTSULAAGER TOIMUB SEL AASTAL
             </p>
             <p class="masthead-subheading font-weight-light mb-5">
-                02.08 - 10.08
+                01.08 - 09.08
             </p>
             <p class="masthead-subheading font-weight-light my-2">
                 <!--<Countdown />-->
-                Registreerimine avaneb 1. mail kell 10.00!
+                Kontsertid toimuvad 9. augustil Tamsalu Kultuurimajas
             </p>
         </div>
     </header>
@@ -31,5 +31,7 @@ import Countdown from "./Countdown.vue";
 @Options({
     components: { Countdown }
 })
-export default class Header extends Vue {}
+class Header extends Vue {}
+
+export default Header;
 </script>

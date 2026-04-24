@@ -16,11 +16,8 @@
                   tulnud noortest inimestest, kelle eesmärkideks on
                   pakkuda noortele meeldejäävaid emotsioone ja
                   tõestada, et igasühes meist peitub tantsulõvi.
-                  Tantsulaagri viimasel päeval toimub suur kontsert, kus
-                  esitatakse laagris õpitud tantse.
                   <br />
-                  Selle aasta kontsert toimub 4. augustil kell 17.00 Tamsalu Kultuurimajas.
-                  Tulge vaatama!
+                  Kohtume laagris!
               </h5>
             </div>
         </div>
@@ -34,5 +31,7 @@ import { Options, Vue } from "vue-class-component";
 @Options({
   components: { }
 })
-export default class About extends Vue {}
+class About extends Vue {}
+
+export default About
 </script>
