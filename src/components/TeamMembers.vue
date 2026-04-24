@@ -6,7 +6,7 @@
         </h3>
         <div class="team">
           <div class="row justify-content-center">
-            <template v-for="member in members" :key="member">
+            <template v-for="member in members" :key="member.name">
               <TeamMember :member="member" />
             </template>
           </div>
@@ -16,22 +16,18 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
-import { Person } from "../domain/models/Person";
-import TeamMember from "./TeamMember.vue";
+import { defineComponent } from 'vue';
+import { Person } from '../domain/models/Person';
+import TeamMember from './TeamMember.vue';
 
-@Options({
-  components: { TeamMember },
-  props: {
-    title: String,
-    members: {
-      required: true,
-      type: Object as () => Person[]
+export default defineComponent({
+    components: { TeamMember },
+    props: {
+        title: String,
+        members: {
+            required: true,
+            type: Array as () => Person[]
+        }
     }
-  }
-})
-export default class TeamMembers extends Vue {
-  title!: string;
-  members!: Person[];  
-}
+});
 </script>

@@ -7,30 +7,24 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import { defineComponent } from 'vue';
 import TeamMembers from "../components/TeamMembers.vue";
 import { Role } from "../domain/enums/Role";
 import { Person } from "../domain/models/Person";
 
-@Options({
-    components: { TeamMembers }
-})
-export default class Team extends Vue {
-    organizers: Person[] = [];
-    trainers: Person[] = [];
-    voluntees: Person[] = [];
-    technicians: Person[] = [];
-    marketing: Person[] = [];
-
-    mounted(): void {
-        this.organizers = this.people.filter(p => p.role === Role.Organizer);
-        this.trainers = this.people.filter(p => p.role === Role.Trainer);
-        this.voluntees = this.people.filter(p => p.role === Role.Voluntee);
-        this.technicians = this.people.filter(p => p.role === Role.Technician);
-        this.marketing = this.people.filter(p => p.role === Role.Marketing);
-    }
-
-    private people: Person[] = [
+export default defineComponent({
+    components: { TeamMembers },
+    data() {
+        return {
+            organizers: [] as Person[],
+            trainers: [] as Person[],
+            voluntees: [] as Person[],
+            technicians: [] as Person[],
+            marketing: [] as Person[]
+        };
+    },
+    mounted() {
+        const people: Person[] = [
         {
             name: "Eliise Lindre",
             description: {
@@ -240,6 +234,13 @@ export default class Team extends Vue {
             role: Role.Voluntee,
             image: "Teele.jpg"
         }
-    ]
+    ];
+
+        this.organizers = people.filter(p => p.role === Role.Organizer);
+        this.trainers = people.filter(p => p.role === Role.Trainer);
+        this.voluntees = people.filter(p => p.role === Role.Voluntee);
+        this.technicians = people.filter(p => p.role === Role.Technician);
+        this.marketing = people.filter(p => p.role === Role.Marketing);
     }
+});
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="team-player col-sm-12 col-md-6">
     <img
-      :src="require(`@/assets/img/team/${member.image}`)"
+      :src="getImageUrl(member.image)"
       class="img-rounded img-raised"
     />
     
@@ -14,19 +14,20 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
-import { Person } from "../domain/models/Person";
+import { defineComponent } from 'vue';
+import { Person } from '../domain/models/Person';
 
-@Options({
-  components: { },
-  props: {
-    member: {
-      required: true,
-      type: Object as () => Person
+export default defineComponent({
+    props: {
+        member: {
+            required: true,
+            type: Object as () => Person
+        }
+    },
+    methods: {
+        getImageUrl(image: string) {
+            return new URL(`../assets/img/team/${image}`, import.meta.url).href;
+        }
     }
-  }
-})
-export default class TeamMember extends Vue {
-  member!: Person;
-}
+});
 </script>

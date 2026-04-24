@@ -26,12 +26,7 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import { defineComponent } from 'vue';
 
-@Options({
-  components: { }
-})
-class About extends Vue {}
-
-export default About
+export default defineComponent({});
 </script>
