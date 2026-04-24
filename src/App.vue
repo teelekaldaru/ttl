@@ -5,12 +5,11 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
+import { defineComponent } from 'vue';
 import Footer from './components/Footer.vue';
 import Navigation from './components/Navigation.vue';
 
-@Options({
+export default defineComponent({
     components: { Navigation, Footer }
-})
-export default class App extends Vue {}
+});
 </script>

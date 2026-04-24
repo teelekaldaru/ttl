@@ -25,13 +25,7 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
-import Countdown from "./Countdown.vue";
+import { defineComponent } from 'vue';
 
-@Options({
-    components: { Countdown }
-})
-class Header extends Vue {}
-
-export default Header;
+export default defineComponent({});
 </script>

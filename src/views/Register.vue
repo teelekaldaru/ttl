@@ -19,20 +19,17 @@
 </template>
 
 <script lang="ts">
-import router from "@/router";
-import { Options, Vue } from "vue-class-component";
+import { defineComponent } from 'vue';
+import router from '@/router';
 
-@Options({
-  components: { },
-})
-export default class Register extends Vue {
-
-  openForm() {
-    window.open("https://docs.google.com/forms/d/1P_s4q4_hEs6smIcCj7x5D7AQQt7dgumjdmjVI-PDHRc/");
-  }
-
-  backToHome() {
-    router.push({ path: '/'})
-  }
-}
+export default defineComponent({
+    methods: {
+        openForm() {
+            window.open("https://docs.google.com/forms/d/1P_s4q4_hEs6smIcCj7x5D7AQQt7dgumjdmjVI-PDHRc/");
+        },
+        backToHome() {
+            router.push({ path: '/' });
+        }
+    }
+});
 </script>
