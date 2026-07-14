@@ -41,7 +41,7 @@ export default defineComponent({
             description: {
                 "3 asja, milleta elada ei suudaks:": "Šokolaad, muusika, reisimine",
                 "Milliste sõnadega end iseloomustad?": "Heasüdamlik, loominguline, tagasihoidlik",
-                "Lemmikfilm/sari:": "\"Harry Potter\", \"Breaking Bad\"",
+                "Lemmikfilm/sari:": "\"Love Island\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "You are only as pretty as you treat people."
             },
             role: Role.Organizer,
