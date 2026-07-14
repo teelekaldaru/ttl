@@ -34,7 +34,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Elu muutub palju tähendusrikkamaks, kui sa mõistad, et sa ei saa kogeda sama hetke mitu korda."
             },
             role: Role.Organizer,
-            image: "Eliise.jpg"
+            image: "TTL_meeskond_koduleht_Eliise-7565.jpg"
         },
         {
             name: "Lisanne",
@@ -45,7 +45,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "You are only as pretty as you treat people."
             },
             role: Role.Organizer,
-            image: "Lisanne.jpg"
+            image: "TTL_meeskond_koduleht_Sannu-7453.jpg"
         },
         {
             name: "Marii",
@@ -56,7 +56,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ole sina ise✌🏻"
             },
             role: Role.Trainer,
-            image: "Lisette.jpg"
+            image: "TTL_meeskond_koduleht_Marii-7469.jpg"
         },
         {
             name: "Eva-Liisa",
@@ -67,7 +67,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Pole veel aeg muretseda” - Atticus Finch -“ Tappa laulurästast\"",
             },
             role: Role.Voluntee,
-            image: "Moona.jpg"
+            image: "TTL_meeskond_koduleht_Eva-Liisa-7547.jpg"
         },
         {
             name: "Karoliine",
@@ -78,7 +78,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ära loe päevi – pane päevad lugema."
             },
             role: Role.Trainer,
-            image: "Caroline.jpg"
+            image: "TTL_meeskond_koduleht_Karoliine-7510.jpg"
         },
         {
             name: "Aleksia",
@@ -89,7 +89,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Don't waste your time by overthinking - just live and trust your intuition and you’ll feel better!!!"
             },
             role: Role.Trainer,
-            image: "Aleksia.jpg"
+            image: "TTL_meeskond_koduleht_Aleksia-7409.jpg"
         },
         {
             name: "Helena Anette",
@@ -100,7 +100,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Keep calm and dance"
             },
             role: Role.Trainer,
-            image: "Helena.jpg"
+            image: "TTL_meeskond_koduleht_Helena-7441.jpg"
         },
         {
             name: "Lola",
@@ -111,7 +111,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Live laugh love"
             },
             role: Role.Trainer,
-            image: "Lola.jpg"
+            image: "TTL_meeskond_koduleht_Lola-7577.jpg"
         },
         {
             name: "Katarina",
@@ -122,7 +122,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Be afraid and do it anyway."
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "TTL_meeskond_koduleht_Katarina-7461.jpg"
         },
         {
             name: "Kertrud",
@@ -133,7 +133,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Kui sa oled seest ilus, siis seda on väljast näha\" - Kate Moss"
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "TTL_meeskond_koduleht_Kertrud-7526.jpg"
         },
         {
             name: "Nele",
@@ -166,7 +166,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Riskides satume kõige ägedamatesse seiklustesse."
             },
             role: Role.Marketing,
-            image: "Marta.jpg"
+            image: "TTL_meeskond_koduleht_Marta-7616.jpg"
         },
         {
             name: "Elis",
@@ -177,7 +177,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Alles siis, kui viimane puu on maha raiutud, viimane jõgi mürgitatud ja viimane kala püütud, saame aru, et raha ei saa süüa."
             },
             role: Role.Voluntee,
-            image: "Elis.jpg"
+            image: "TTL_meeskond_koduleht_Elis-7487.jpg"
         },
         {
             name: "Elina",
@@ -188,7 +188,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Elu mõte on leida elu mõte."
             },
             role: Role.Voluntee,
-            image: "Elina.jpg"
+            image: "TTL_meeskond_koduleht_Elina-7394.jpg"
         },
         {
             name: "Toomas",
@@ -199,7 +199,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": ""
             },
             role: Role.Voluntee,
-            image: "Liis.jpg"
+            image: "TTL_meeskond_koduleht_Toomas-7552.jpg"
         },
         {
             name: "Farida",
@@ -210,7 +210,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Mõnikord ei saa sa kunagi teada ühe hetke väärtust enne, kui sellest saab mälestus."
             },
             role: Role.Voluntee,
-            image: "Sten.jpg"
+            image: "TTL_meeskond_koduleht_Farida-7557.jpg"
         },
         {
             name: "Riho",
@@ -221,7 +221,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Tempora mutantur et nos mutamur in illis"
             },
             role: Role.Technician,
-            image: "Riho.jpg"
+            image: "TTL_meeskond_koduleht_Riho-7600.jpg"
         },
         {
             name: "Emma Lotta",
@@ -232,7 +232,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ära mine närvi"
             },
             role: Role.Voluntee,
-            image: "Emma.jpg"
+            image: "TTL_meeskond_koduleht_Emma-7504.jpg"
         },
         {
             name: "Grete",
@@ -243,7 +243,7 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Me ei mäleta päevi, me mäletame hetki."
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "TTL_meeskond_koduleht_Grete-7592.jpg"
         },
         {
             name: "Teele",
