@@ -5,9 +5,10 @@
                 {{ title }}
             </h3>
             <div class="sponsor-grid">
-                <template v-for="sponsor in sponsors" :key="sponsor.image">
+                <template v-for="sponsor in sponsors" :key="sponsor.image || sponsor.name">
                     <div class="sponsor-logo">
-                        <img :src="getImageUrl(sponsor.image)" :alt="sponsor.name" />
+                        <img v-if="sponsor.image" :src="getImageUrl(sponsor.image)" :alt="sponsor.name" />
+                        <span v-else class="sponsor-name">{{ sponsor.name }}</span>
                     </div>
                 </template>
             </div>
@@ -55,5 +56,12 @@ export default defineComponent({
     max-width: 100%;
     max-height: 100px;
     object-fit: contain;
+}
+
+.sponsor-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
 }
 </style>

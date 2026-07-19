@@ -28,7 +28,9 @@ export default defineComponent({
             { name: "parli-pizza", image: "parlipizza_logo.JPG" },
             { name: "tamsalu-ymca", image: "Tamsalu-YMCA-logo.png" },
             { name: "hooly", image: "hooly_logo.jpeg" },
-            { name: "maskeraad-ou", image: "maskeraad-oü_logo.jpg" }
+            { name: "maskeraad-ou", image: "maskeraad-oü_logo.jpg" },
+            { name: "Design By Marit"},
+            { name: "Egon Leemets"}
         ];
     }
 });
