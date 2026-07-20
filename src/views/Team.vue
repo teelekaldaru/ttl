@@ -160,8 +160,8 @@ export default defineComponent({
         {
             name: "Marta",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Töökas, rõõmus, usaldav",
-                "Milliste sõnadega end iseloomustad?": "Abivalmis, tugev, omapärane",
+                "3 asja, milleta elada ei suudaks:": "Muusika, loodus, kallid",
+                "Milliste sõnadega end iseloomustad?": "Töökas, rõõmus, usaldav",
                 "Lemmikfilm/sari:": "\"Bridgerton\" ja dokumentaalid",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Riskides satume kõige ägedamatesse seiklustesse."
             },
@@ -259,10 +259,10 @@ export default defineComponent({
         {
             name: "Annike",
             description: {
-                "3 asja, milleta elada ei suudaks:": "",
-                "Milliste sõnadega end iseloomustad?": "",
-                "Lemmikfilm/sari:": "",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": ""
+                "3 asja, milleta elada ei suudaks:": "Muusika, kunst, puhkepäevad",
+                "Milliste sõnadega end iseloomustad?": "Rahulik, loominguline, abivalmis",
+                "Lemmikfilm/sari:": "\"Lord of the rings\", \"Dark\", \"Severance\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ära kiirusta."
             },
             role: Role.Voluntee,
             image: "profile.png"
