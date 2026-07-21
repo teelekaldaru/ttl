@@ -26,7 +26,7 @@ export default defineComponent({
     mounted() {
         const people: Person[] = [
         {
-            name: "Eliise Lindre",
+            name: "Eliise",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Lähedased, muusika, huumor",
                 "Milliste sõnadega end iseloomustad?": "Sihikindel, julge, aus ja hooliv",
@@ -34,54 +34,54 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Elu muutub palju tähendusrikkamaks, kui sa mõistad, et sa ei saa kogeda sama hetke mitu korda."
             },
             role: Role.Organizer,
-            image: "Eliise.jpg"
+            image: "TTL_meeskond_koduleht_Eliise-7565.jpg"
         },
         {
-            name: "Lisanne Lindre",
+            name: "Lisanne",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Šokolaad, muusika, reisimine",
                 "Milliste sõnadega end iseloomustad?": "Heasüdamlik, loominguline, tagasihoidlik",
-                "Lemmikfilm/sari:": "\"Harry Potter\", \"Breaking Bad\"",
+                "Lemmikfilm/sari:": "\"Love Island\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "You are only as pretty as you treat people."
             },
             role: Role.Organizer,
-            image: "Lisanne.jpg"
+            image: "TTL_meeskond_koduleht_Sannu-7453.jpg"
         },
         {
-            name: "Lisette Akkuratov",
+            name: "Marii",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Tants, vesi, muusika",
-                "Milliste sõnadega end iseloomustad?": "Enesekindel, ambitsioonikas ja hooliv",
-                "Lemmikfilm/sari:": "\"Outer banks\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Kõik juhtub põhjusega."
+                "3 asja, milleta elada ei suudaks:": "Krõbinad, mu padi ja mu kassid",
+                "Milliste sõnadega end iseloomustad?": "Otsekohene, veits naljakas ka, aktiivne ja hull ",
+                "Lemmikfilm/sari:": "\"Kättemaksukontor!!!\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ole sina ise✌🏻"
             },
             role: Role.Trainer,
-            image: "Lisette.jpg"
+            image: "TTL_meeskond_koduleht_Marii-7469.jpg"
         },
         {
-            name: "Moona Mürk",
+            name: "Eva-Liisa",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Päike, muusika, šokolaad",
-                "Milliste sõnadega end iseloomustad?": "Hooliv, särav, lühike",
-                "Lemmikfilm/sari:": "-",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Oma elu elamiseks on ainult kaks võimalust. Esimene on uskuda, et miski pole ime. Teine on uskuda, et kõik on ime."
+                "3 asja, milleta elada ei suudaks:": "Raamatud, tomatid, sõbrad",
+                "Milliste sõnadega end iseloomustad?": "Jutukas, sõbralik, lõbus",
+                "Lemmikfilm/sari:": "\"12 vihast meest\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Pole veel aeg muretseda” - Atticus Finch -“ Tappa laulurästast\"",
+            },
+            role: Role.Voluntee,
+            image: "TTL_meeskond_koduleht_Eva-Liisa-7547.jpg"
+        },
+        {
+            name: "Karoliine",
+            description: {
+                "3 asja, milleta elada ei suudaks:": "Muusika, sõbrad, mullivesi",
+                "Milliste sõnadega end iseloomustad?": "Rõõmsameelne ja sõbralik",
+                "Lemmikfilm/sari:": "\"The Office\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ära loe päevi – pane päevad lugema."
             },
             role: Role.Trainer,
-            image: "Moona.jpg"
+            image: "TTL_meeskond_koduleht_Karoliine-7510.jpg"
         },
         {
-            name: "Caroline Kiviberg ",
-            description: {
-                "3 asja, milleta elada ei suudaks:": "Toorjuustukook, klaver, pintsel",
-                "Milliste sõnadega end iseloomustad?": "Energiline, lojaalne, loov",
-                "Lemmikfilm/sari:": "\"Kättemaksukontor\", \"Rapuntsel\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Raha tuleb tagasi, kuid aeg mitte."
-            },
-            role: Role.Trainer,
-            image: "Caroline.jpg"
-        },
-        {
-            name: "Aleksia Yarnya",
+            name: "Aleksia",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Vürtsikad nuudlid, hea huumor, jazzmuusika",
                 "Milliste sõnadega end iseloomustad?": "Alati positiivne, avatud ja usaldusväärne",
@@ -89,10 +89,10 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Don't waste your time by overthinking - just live and trust your intuition and you’ll feel better!!!"
             },
             role: Role.Trainer,
-            image: "Aleksia.jpg"
+            image: "TTL_meeskond_koduleht_Aleksia-7409.jpg"
         },
         {
-            name: "Helena Anette Hanni",
+            name: "Helena Anette",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Tants, suvi, juicy gossip",
                 "Milliste sõnadega end iseloomustad?": "Otsekohene, järjekindel",
@@ -100,10 +100,10 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Keep calm and dance"
             },
             role: Role.Trainer,
-            image: "Helena.jpg"
+            image: "TTL_meeskond_koduleht_Helena-7441.jpg"
         },
         {
-            name: "Lola Hannus",
+            name: "Lola",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Söömine, magamine, päike",
                 "Milliste sõnadega end iseloomustad?": "Koomiline, omamoodi",
@@ -111,21 +111,21 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Live laugh love"
             },
             role: Role.Trainer,
-            image: "Lola.jpg"
+            image: "TTL_meeskond_koduleht_Lola-7577.jpg"
         },
         {
-            name: "Katarina Saare",
+            name: "Katarina",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Raamatud, kirg ja muusika",
-                "Milliste sõnadega end iseloomustad?": "Tantsuline, mitmekülgne ja raamatusõber",
+                "3 asja, milleta elada ei suudaks:": "Muusika, raamatud, rändamine",
+                "Milliste sõnadega end iseloomustad?": "Mitmekülgne, hooliv, otsekohene",
                 "Lemmikfilm/sari:": "\"10 things I hate about you\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Time will explain.\" - Jane Austine"
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Be afraid and do it anyway."
             },
             role: Role.Trainer,
-            image: "profile.png"
+            image: "TTL_meeskond_koduleht_Katarina-7461.jpg"
         },
         {
-            name: "Kertrud Kõre",
+            name: "Kertrud",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Padi, roosa värv, Pinterest",
                 "Milliste sõnadega end iseloomustad?": "Avatud, lõbus, sõbralik",
@@ -133,32 +133,54 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "\"Kui sa oled seest ilus, siis seda on väljast näha\" - Kate Moss"
             },
             role: Role.Trainer,
+            image: "TTL_meeskond_koduleht_Kertrud-7526.jpg"
+        },
+        {
+            name: "Nele",
+            description: {
+                "3 asja, milleta elada ei suudaks:": "Deodorant, hambahari, emps",
+                "Milliste sõnadega end iseloomustad?": "mul emme alati öelnud, et olen eriline",
+                "Lemmikfilm/sari:": "\"Coco\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "kui oled kaelani sõnnikus, siis ära lase pead norgu, muidu saab nägu ka mustaks"
+            },
+            role: Role.Trainer,
             image: "profile.png"
         },
         {
-            name: "Marta Kolde",
+            name: "Helle-Marii",
+            description: {
+                "3 asja, milleta elada ei suudaks:": "Vesi, sõbrad ja huumor",
+                "Milliste sõnadega end iseloomustad?": "Sõbralik, avameelne, energiline",
+                "Lemmikfilm/sari:": "\"10 things i hate about you\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Everything happens for a reason"
+            },
+            role: Role.Trainer,
+            image: "profile.png"
+        },
+        {
+            name: "Marta",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Muusika, loodus, kallid",
-                "Milliste sõnadega end iseloomustad?": "Abivalmis, tugev, omapärane",
-                "Lemmikfilm/sari:": "\"Gilmore Girls\" ning \"Friends\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Headust leidub kõigis!"
+                "Milliste sõnadega end iseloomustad?": "Töökas, rõõmus, usaldav",
+                "Lemmikfilm/sari:": "\"Bridgerton\" ja dokumentaalid",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Riskides satume kõige ägedamatesse seiklustesse."
             },
             role: Role.Marketing,
-            image: "Marta.jpg"
+            image: "TTL_meeskond_koduleht_Marta-7616.jpg"
         },
         {
-            name: "Elis Viibur",
+            name: "Elis",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Tants, sport, loodus",
-                "Milliste sõnadega end iseloomustad?": "Kohusetundlik, sõbralik, võistlushimuline, tore",
-                "Lemmikfilm/sari:": "\"Normal people\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Do it with passion or not at all."
+                "3 asja, milleta elada ei suudaks:": "Kummikommid, kaamera, sport",
+                "Milliste sõnadega end iseloomustad?": "Kohusetundlik, otsekohene, tore",
+                "Lemmikfilm/sari:": "\"Ohtlik lend\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Alles siis, kui viimane puu on maha raiutud, viimane jõgi mürgitatud ja viimane kala püütud, saame aru, et raha ei saa süüa."
             },
             role: Role.Voluntee,
-            image: "Elis.jpg"
+            image: "TTL_meeskond_koduleht_Elis-7487.jpg"
         },
         {
-            name: "Elina Kaska",
+            name: "Elina",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Hommikukohv, mu koer ja mu voodi",
                 "Milliste sõnadega end iseloomustad?": "Pean ennast rõõmsameelseks ning avatud inimeseks, kellele meeldib inimestega suhelda.",
@@ -166,32 +188,32 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Elu mõte on leida elu mõte."
             },
             role: Role.Voluntee,
-            image: "Elina.jpg"
+            image: "TTL_meeskond_koduleht_Elina-7394.jpg"
         },
         {
-            name: "Liis Tomasov",
+            name: "Toomas",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Loodus, toredad inimesed, suvi",
-                "Milliste sõnadega end iseloomustad?": "Siiras, rõõmus, hooliv",
-                "Lemmikfilm/sari:": "Ei suuda valida, häid filme ja sarju on liiga palju.",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Mõista päriselt, et käesolev hetk on kõik, mis sul eales on."
+                "3 asja, milleta elada ei suudaks:": "",
+                "Milliste sõnadega end iseloomustad?": "",
+                "Lemmikfilm/sari:": "",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": ""
             },
             role: Role.Voluntee,
-            image: "Liis.jpg"
+            image: "TTL_meeskond_koduleht_Toomas-7552.jpg"
         },
         {
-            name: "Sten-Lenar Nirgi",
+            name: "Farida",
             description: {
-                "3 asja, milleta elada ei suudaks:": "Internet, raha, kaamerad",
-                "Milliste sõnadega end iseloomustad?": "Lõbus ja spontaanne",
-                "Lemmikfilm/sari:": "\"Breaking bad\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "It always seems impossible until it's done."
+                "3 asja, milleta elada ei suudaks:": "Lähedased inimesed, hea huumor ja muusika",
+                "Milliste sõnadega end iseloomustad?": "Empaatiline, siiras ja usaldusväärne",
+                "Lemmikfilm/sari:": "\"Breaking Bad\", \"The Office\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Mõnikord ei saa sa kunagi teada ühe hetke väärtust enne, kui sellest saab mälestus."
             },
-            role: Role.Technician,
-            image: "Sten.jpg"
+            role: Role.Voluntee,
+            image: "TTL_meeskond_koduleht_Farida-7557.jpg"
         },
         {
-            name: "Riho Valdok",
+            name: "Riho",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Vesi, sõbrad ja sarkasm",
                 "Milliste sõnadega end iseloomustad?": "Energiline, vormis, sõbralik, hea isuga",
@@ -199,21 +221,21 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Tempora mutantur et nos mutamur in illis"
             },
             role: Role.Technician,
-            image: "Riho.jpg"
+            image: "TTL_meeskond_koduleht_Riho-7600.jpg"
         },
         {
-            name: "Emma-Lotta Vikk",
+            name: "Emma Lotta",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Muusika, pilved, äkilised naerupahvakud",
                 "Milliste sõnadega end iseloomustad?": "Päikseline, mitmekülgne, sihikindel",
-                "Lemmikfilm/sari:": "\"Clueless\"",
+                "Lemmikfilm/sari:": "\"Lotte ja Kuukivi saladus\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ära mine närvi"
             },
             role: Role.Voluntee,
-            image: "Emma.jpg"
+            image: "TTL_meeskond_koduleht_Emma-7504.jpg"
         },
         {
-            name: "Grete Uudeküll-Lind",
+            name: "Grete",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Pinterest, paber ja sõõrikud",
                 "Milliste sõnadega end iseloomustad?": "Tagasihoidlik, vaikne, inspireeritud",
@@ -221,10 +243,10 @@ export default defineComponent({
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Me ei mäleta päevi, me mäletame hetki."
             },
             role: Role.Voluntee,
-            image: "profile.png"
+            image: "TTL_meeskond_koduleht_Grete-7592.jpg"
         },
         {
-            name: "Teele Kaldaru",
+            name: "Teele",
             description: {
                 "3 asja, milleta elada ei suudaks:": "Jõusaal, Stanley cup, geelküüned",
                 "Milliste sõnadega end iseloomustad?": "Sihikindel, loov, tähelepanelik",
@@ -233,6 +255,17 @@ export default defineComponent({
             },
             role: Role.Voluntee,
             image: "Teele.jpg"
+        },
+        {
+            name: "Annike",
+            description: {
+                "3 asja, milleta elada ei suudaks:": "Muusika, kunst, puhkepäevad",
+                "Milliste sõnadega end iseloomustad?": "Rahulik, loominguline, abivalmis",
+                "Lemmikfilm/sari:": "\"Lord of the rings\", \"Dark\", \"Severance\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ära kiirusta."
+            },
+            role: Role.Voluntee,
+            image: "profile.png"
         }
     ];
 
