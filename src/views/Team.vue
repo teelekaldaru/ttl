@@ -206,10 +206,10 @@ export default defineComponent({
         {
             name: "Toomas",
             description: {
-                "3 asja, milleta elada ei suudaks:": "",
-                "Milliste sõnadega end iseloomustad?": "",
-                "Lemmikfilm/sari:": "",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": ""
+                "3 asja, milleta elada ei suudaks:": "Tantsimine, tantsimine ja tantsimine",
+                "Milliste sõnadega end iseloomustad?": "Olen konkreetne ja nõudlik. Vajadusel aitan alati ja olen toeks.",
+                "Lemmikfilm/sari:": "\"Creep\" 2014",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Kui mõistusega ei saa, proovi jõuga."
             },
             role: Role.Trainer,
             image: "TTL_meeskond_koduleht_Toomas-7552.jpg"
