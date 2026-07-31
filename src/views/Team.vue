@@ -3,6 +3,7 @@
     <TeamMembers title="Treenerid" :members="trainers" />
     <TeamMembers title="Meeskond" :members="voluntees" />
     <TeamMembers title="Heli ja Valgus" :members="technicians" />
+    <TeamMembers title="Veebiarendus" :members="webDevelopers" />
     <TeamMembers title="Turundus" :members="marketing" class="page-section-last" />
 </template>
 
@@ -20,6 +21,7 @@ export default defineComponent({
             trainers: [] as Person[],
             voluntees: [] as Person[],
             technicians: [] as Person[],
+            webDevelopers: [] as Person[],
             marketing: [] as Person[]
         };
     },
@@ -46,6 +48,17 @@ export default defineComponent({
             },
             role: Role.Organizer,
             image: "TTL_meeskond_koduleht_Sannu-7453.jpg"
+        },
+        {
+            name: "Moona",
+            description: {
+                "3 asja, milleta elada ei suudaks:": "Päike, muusika, šokolaad",
+                "Milliste sõnadega end iseloomustad?": "Hooliv, särav, lühike",
+                "Lemmikfilm/sari:": "-",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Oma elu elamiseks on ainult kaks võimalust. Esimene on uskuda, et miski pole ime. Teine on uskuda, et kõik on ime."
+            },
+            role: Role.Organizer,
+            image: "Moona.jpg"
         },
         {
             name: "Marii",
@@ -77,7 +90,7 @@ export default defineComponent({
                 "Lemmikfilm/sari:": "\"The Office\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ära loe päevi – pane päevad lugema."
             },
-            role: Role.Trainer,
+            role: Role.Voluntee,
             image: "TTL_meeskond_koduleht_Karoliine-7510.jpg"
         },
         {
@@ -193,12 +206,12 @@ export default defineComponent({
         {
             name: "Toomas",
             description: {
-                "3 asja, milleta elada ei suudaks:": "",
-                "Milliste sõnadega end iseloomustad?": "",
-                "Lemmikfilm/sari:": "",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": ""
+                "3 asja, milleta elada ei suudaks:": "Tantsimine, tantsimine ja tantsimine",
+                "Milliste sõnadega end iseloomustad?": "Olen konkreetne ja nõudlik. Vajadusel aitan alati ja olen toeks.",
+                "Lemmikfilm/sari:": "\"Creep\" 2014",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Kui mõistusega ei saa, proovi jõuga."
             },
-            role: Role.Voluntee,
+            role: Role.Trainer,
             image: "TTL_meeskond_koduleht_Toomas-7552.jpg"
         },
         {
@@ -253,7 +266,7 @@ export default defineComponent({
                 "Lemmikfilm/sari:": "\"Interstellar\", \"The Imitation Game\", \"Peaky Blinders\"",
                 "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Unista suurelt ja ära karda ebaõnnestuda."
             },
-            role: Role.Voluntee,
+            role: Role.WebDeveloper,
             image: "Teele.jpg"
         },
         {
@@ -261,10 +274,10 @@ export default defineComponent({
             description: {
                 "3 asja, milleta elada ei suudaks:": "Muusika, kunst, puhkepäevad",
                 "Milliste sõnadega end iseloomustad?": "Rahulik, loominguline, abivalmis",
-                "Lemmikfilm/sari:": "\"Lord of the rings\", \"Dark\", \"Severance\"",
-                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ära kiirusta."
+                "Lemmikfilm/sari:": "\"Lord of the rings\", \"Interstellar\", \"Dark\", \"Severance\"",
+                "Quote/sõnum, mis sind inspireerib/mille soovid teistele edasi anda:": "Ära kiirusta"
             },
-            role: Role.Voluntee,
+            role: Role.WebDeveloper,
             image: "profile.png"
         }
     ];
@@ -273,6 +286,7 @@ export default defineComponent({
         this.trainers = people.filter(p => p.role === Role.Trainer);
         this.voluntees = people.filter(p => p.role === Role.Voluntee);
         this.technicians = people.filter(p => p.role === Role.Technician);
+        this.webDevelopers = people.filter(p => p.role === Role.WebDeveloper);
         this.marketing = people.filter(p => p.role === Role.Marketing);
     }
 });
